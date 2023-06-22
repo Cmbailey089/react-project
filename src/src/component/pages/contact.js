@@ -5,9 +5,9 @@ export default function Contact() {
         <div>
             <h1>Leave me message with your name and E-mail and I will reach out as soon as possible</h1>
             <form className="contact-form">
-                <input className="name-input" type="text" value={input}>Name</input>
-                <input className="email-input" type="text" value={input}>Email</input>
-                <input className="message-input" type="text" value={input}></input>
+                <input className="name-input" type="text" >Name</input>
+                <input className="email-input" type="text" >Email</input>
+                <input className="message-input" type="text" ></input>
             </form>
         </div>
     )
