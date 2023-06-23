@@ -6,8 +6,12 @@ export default function Footer() {
     return(
         <footer className="footer">
             <h1 className="container">Footer</h1>
-            <image src={gitHub} href="https://github.com/Cmbailey089"></image>
-            <image src={linkIn} href="https://www.linkedin.com/feed/"></image>
+           <a href="https://github.com/Cmbailey089"> 
+            <img src={gitHub}></img>
+             </a>
+             <a href="https://www.linkedin.com/feed/">
+            <img src={linkIn}></img>
+           </a>
         </footer>
     )
 }
