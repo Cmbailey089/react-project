@@ -6,10 +6,10 @@ export default function Footer() {
     return(
         <footer className="footer">
             <h1 className="container">Footer</h1>
-           <a href="https://github.com/Cmbailey089"> 
+           <a className="column" href="https://github.com/Cmbailey089"> 
             <img src={gitHub}></img>
              </a>
-             <a href="https://www.linkedin.com/feed/">
+             <a className="column" href="https://www.linkedin.com/feed/">
             <img src={linkIn}></img>
            </a>
         </footer>
