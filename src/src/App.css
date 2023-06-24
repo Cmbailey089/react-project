@@ -1,11 +1,13 @@
-.App {
-  text-align: center;
+
+
+.header-tabs {
+  width:100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+/* *{
+  background-color: bisque;
+} */
+
 
 img {
   display:block;
@@ -15,25 +17,22 @@ img {
 
 }
 
-.footer {
-  background-color: rgba(215, 212, 212, 0.888);
-  width:100%;
-  bottom: 0;
-  height:50%;
-}
-
 .column {
   float:left;
   width:50%;
 }
 
+footer {
+  position: fixed;
+  right:45%;
+  bottom:0;
+
+}
+
 .footer img{
   height: 50px;
-  width: 100px;;
+  width: 100px;
  object-fit: contain;
- margin-left: auto;
-margin-right: auto;
- background-color: antiquewhite;
 }
 
 @media (prefers-reduced-motion: no-preference) {
