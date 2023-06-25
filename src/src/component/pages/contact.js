@@ -3,6 +3,7 @@ import React from "react";
 export default function Contact() {
     return(
         <div>
+            <label>Your </label>
            <form className="form-page">
            <input
              name="name"
