@@ -3,17 +3,32 @@
 
 }
 
+.about-page img{
+  border-radius: 50%;
+}
+
 .body-page {
   background-color: bisque;
   height:650px;
 }
 
-img {
-  display:block;
-  width:50%;
-  margin-left: auto;
-  margin-right: auto;
+.portfolio {
+  margin-left: 20px;
+  border: none;
+  object-fit: contain;
 
+}
+
+.portfolio img {
+  padding:20px;
+  width:100px;
+  height: 100px;
+  margin-left: 20%;
+  object-fit: cover;
+}
+
+.portfolio img:hover {
+  opacity: .5px;
 }
 
 .form-page {
