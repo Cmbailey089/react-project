@@ -4,9 +4,8 @@ import Portfolio from './pages/portofolio';
 import Resume from './pages/resume';
 import Contact from './pages/contact';
 import AboutMe from './pages/aboutMe';
-import headerImg from './img/tropical-header.jpg'
 
-export default function PortfolioContainer() {
+export default function PageChange() {
   const [currentPage, setCurrentPage] = useState('home');
 
   const renderPage = () => {
@@ -25,9 +24,7 @@ export default function PortfolioContainer() {
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
-    <div style={{ backgroundImage: `url(${headerImg})`,
-    backgroundSize: 'cover',
-     }}
+    <div 
      className='body-page'>
       <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
       {renderPage()}

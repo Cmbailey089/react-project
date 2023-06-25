@@ -1,13 +1,12 @@
-
-
 .header-tabs {
   width:100%;
+
 }
 
-/* *{
+.body-page {
   background-color: bisque;
-} */
-
+  height:650px;
+}
 
 img {
   display:block;
@@ -15,6 +14,22 @@ img {
   margin-left: auto;
   margin-right: auto;
 
+}
+
+.form-page {
+  display: block;
+  width: 200px;
+}
+
+.form-page input{
+  width: 200px;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.message-input {
+  margin-top: 50px;
+  padding: 50px;
 }
 
 .column {
@@ -26,34 +41,20 @@ footer {
   position: fixed;
   right:45%;
   bottom:0;
-
+  height:50px
 }
 
 .footer img{
   height: 50px;
   width: 100px;
  object-fit: contain;
+ mix-blend-mode:color-burn;
 }
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
 }
 
 @keyframes App-logo-spin {

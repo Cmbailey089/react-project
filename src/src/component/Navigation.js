@@ -1,8 +1,11 @@
 import React from 'react';
+import headerImg from './img/tropical-header.jpg';
 
 function Nav({ currentPage, handlePageChange }) {
   return (
-    <div className="header-tabs">
+    <div style={{ backgroundImage: `url(${headerImg})`,
+    backgroundSize:'cover'
+  }} className="header-tabs">
       <div className="nav-item">
         <a
           href="#aboutMe"
