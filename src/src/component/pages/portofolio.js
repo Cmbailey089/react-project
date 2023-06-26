@@ -12,15 +12,15 @@ export default function portfolio() {
             <a href="https://github.com/Cmbailey089/work-planner" >
             <img src={planner}/>
             </a>
-            <a href="https://github.com/Cmbailey089/work-planner" >
+            <a href="https://blog-for-all.herokuapp.com/" >
             <img src={comments}/>
-            </a><a href="https://github.com/Cmbailey089/work-planner" >
+            </a><a href="https://github.com/Cmbailey089/The-portfolio" >
             <img src={picOfMe}/>
-            </a><a href="https://github.com/Cmbailey089/work-planner" >
+            </a><a href="https://github.com/Cmbailey089/sql-database" >
             <img src={database}/>
-            </a><a href="https://github.com/Cmbailey089/work-planner" >
+            </a><a href="https://github.com/Cmbailey089/almost-right-weather" >
             <img src={weather}/>
-            </a><a href="https://github.com/Cmbailey089/work-planner" >
+            </a><a href="https://github.com/Cmbailey089/network-api" >
             <img src={download}/>
             </a>
         </div>
