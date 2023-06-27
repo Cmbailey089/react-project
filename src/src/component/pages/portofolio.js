@@ -10,18 +10,18 @@ export default function portfolio() {
     return(
         <div className="portfolio">
             <a href="https://github.com/Cmbailey089/work-planner" >
-            <img src={planner}/>
+            <img src={planner} alt="planner"/>
             </a>
             <a href="https://blog-for-all.herokuapp.com/" >
-            <img src={comments}/>
+            <img src={comments} alt="comments"/>
             </a><a href="https://github.com/Cmbailey089/The-portfolio" >
-            <img src={picOfMe}/>
+            <img src={picOfMe} alt="pic"/>
             </a><a href="https://github.com/Cmbailey089/sql-database" >
-            <img src={database}/>
+            <img src={database} alt="databse"/>
             </a><a href="https://github.com/Cmbailey089/almost-right-weather" >
-            <img src={weather}/>
+            <img src={weather} alt="weather"/>
             </a><a href="https://github.com/Cmbailey089/network-api" >
-            <img src={download}/>
+            <img src={download} alt="networking"/>
             </a>
         </div>
     )

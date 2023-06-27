@@ -17,10 +17,10 @@
 }
 
 .portfolio {
+  position: relative;
   margin-left: 20px;
   border: none;
   object-fit: contain;
-
 }
 
 .portfolio img {

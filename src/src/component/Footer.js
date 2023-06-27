@@ -7,13 +7,13 @@ export default function Footer() {
     return(
         <footer className="footer">
            <a className="column" href="https://github.com/Cmbailey089"> 
-            <img src={gitHub}></img>
+            <img src={gitHub} alt="github"></img>
              </a>
              <a className="column" href="https://www.linkedin.com/in/christopher-bailey-913859206/">
-            <img src={linkIn}></img>
+            <img src={linkIn} alt="linkin"></img>
            </a>
            <a className="column" href="https://stackoverflow.com/users/22130446/chrismb">
-            <img src={stack}></img>
+            <img src={stack} alt="stack"></img>
            </a>
         </footer>
     )
