@@ -20,7 +20,7 @@ export default function portfolio() {
             <img src={database} alt="databse"/>
             </a><a href="https://github.com/Cmbailey089/almost-right-weather" >
             <img src={weather} alt="weather"/>
-            </a><a href="https://github.com/Cmbailey089/network-api" >
+            </a><a href="https://whispering-sea-09039-50a149ea49a2.herokuapp.com/" >
             <img src={download} alt="networking"/>
             </a>
         </div>
